@@ -20,7 +20,7 @@ public class Static_M_Interface {
      StaticInterface si=()->{
        System.out.println("implementation of show with lambda expressions");
     };
-        
+        si.show();
       StaticInterface.display();   
     }
 }
